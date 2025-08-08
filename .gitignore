@@ -1,0 +1,44 @@
+# Virtual Environment
+myenv/
+venv/
+env/
+ENV/
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+src/__pycache__/
+
+models_cache/
+.cache/
+transformers_cache/
+
+chroma_db/
+
+data/
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+
+# Logs
+*.log
+
+# Evaluation results (optional - you might want to keep these)
+evaluation_results.json
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
